@@ -20,7 +20,7 @@ tests/
 ├── mul.test.js
 ├── div.test.js
 └── calculadora.test.js
-
+```
 
 ---
 
@@ -38,16 +38,31 @@ tests/
 
 Os testes foram feitos com o **Vitest**, garantindo que todas as funções funcionem corretamente.
 
-### Exemplo de teste:
+### Exemplo de teste
 
 ```js
 expect(calculadora.soma(2, 3)).toBe(5);
 ```
 
-### Executar os testes
+---
+
+## ▶️ Executando os testes
 
 ```bash
 npx vitest
+```
+
+Resultado esperado:
+
+```text
+✓ tests/sub.test.js
+✓ tests/sum.test.js
+✓ tests/calculadora.test.js
+✓ tests/div.test.js
+✓ tests/mul.test.js
+
+Test Files  5 passed (5)
+Tests       10 passed (10)
 ```
 
 ---
@@ -57,5 +72,5 @@ npx vitest
 - JavaScript
 - Node.js
 - Vitest
-- Git e GitHub
-
+- Git
+- GitHub
